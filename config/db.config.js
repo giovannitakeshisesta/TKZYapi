@@ -5,13 +5,13 @@ const mongoose = require('mongoose')
 // const DB_URI = `${URI}/${DB_NAME}`;
 
 // local
-const DB_URI =  'mongodb://127.0.0.1:27017/ticketeazy2';
+// const DB_URI =  'mongodb://127.0.0.1:27017/ticketeazy2';
 // const DB_URI =  'mongodb://127.0.0.1:27017/ticketeazy2' || process.env.MONGODB_URI  ;
 
 // remote
 // const DB_URI =  process.env.MONGODB_URI ;
 
-// const DB_URI =  process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/ticketeazy2';
+const DB_URI =  process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/ticketeazy2';
 
 
 mongoose
